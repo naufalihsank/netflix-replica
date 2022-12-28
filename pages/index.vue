@@ -6,5 +6,10 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'Netlix Jawa Barat'
+    }
+  }
 }
 </script>
