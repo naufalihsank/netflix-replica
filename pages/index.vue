@@ -1,9 +1,8 @@
 <template>
-  <div class="text-white h-[10000px] pt-24 pl-[4%]">
-    Video List
+  <div class="text-white h-[10000px]">
+    <HomePlayer />
   </div>
 </template>
-
 <script>
 export default {
   head() {

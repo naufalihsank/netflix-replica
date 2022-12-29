@@ -1,15 +1,15 @@
 <template>
   <div
     :class="{
-      'flex fixed align-middle px-[4%] text-white items-center justify-between w-full z-[2] bg-[#0e0e0e] transition duration-500': true,
+      'flex fixed align-middle px-[4%] text-white items-center justify-between w-full h-[68px] z-[2] bg-[#0e0e0e] transition duration-500': true,
       'bg-transparent': position[1] === 0
     }"
   >
     <div class="flex items-center">
-      <a href="/" class="mr-9">
+      <a href="/" class="mr-11">
         <img src="@/assets/images/navbar-icon.png" alt="Netflix Icon" width="92" height="30">
       </a>
-      <ul class="flex gap-[18px] font-netflixsans text-sm text-[#e5e5e5]">
+      <ul class="flex gap-[20px] font-netflixsans text-sm text-[#e5e5e5]">
         <li class="transition duration-300 hover:cursor-pointer hover:opacity-50">Home</li>
         <li class="transition duration-300 hover:cursor-pointer hover:opacity-50">TV Shows</li>
         <li class="transition duration-300 hover:cursor-pointer hover:opacity-50">Movies</li>
