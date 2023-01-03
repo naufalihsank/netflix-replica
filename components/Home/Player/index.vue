@@ -30,7 +30,7 @@
 export default {
   data() {
     return {
-      videoParams: 'autoplay=1&modestbranding=1&controls=0&fs=0'
+      videoParams: 'rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1'
     }
   }
 }
