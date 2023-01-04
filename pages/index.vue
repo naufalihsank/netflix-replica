@@ -1,9 +1,9 @@
 <template>
-  <div class="text-white h-[10000px]">
+  <div class="text-white">
     <HomePlayer />
-    <div class="ml-[4%] pt-[4%]">
-      <BaseVideoCard />
-    </div>
+    <VideoList title="Trending Now" class="mt-[4%]" />
+    <VideoList title="Recently Added" class="mt-[2%]" />
+    <VideoList title="Marvel Studios" class="mt-[2%]" />
   </div>
 </template>
 <script>
