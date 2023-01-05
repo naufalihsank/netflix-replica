@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col w-[218px] transition hover:scale-[1.35] relative group-hover:z-10 duration-300 group hover:cursor-pointer delay-200"
+    class="flex flex-col w-[15vw] transition hover:scale-[1.35] relative group-hover:z-10 duration-300 group hover:cursor-pointer delay-200"
     @mouseover="playVideo(true)"
     @mouseleave="playVideo(false)"
   >

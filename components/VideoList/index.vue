@@ -29,3 +29,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.swiper-slide {
+  @apply max-w-[15vw];
+}
+</style>
