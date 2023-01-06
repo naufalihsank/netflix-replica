@@ -1,14 +1,14 @@
 <template>
   <div
-    class="flex flex-col w-[15vw] transition hover:scale-[1.35] relative group-hover:z-10 duration-300 group hover:cursor-pointer delay-200"
+    class="flex flex-col w-[15vw] transition hover:scale-[1.35] relative group-hover:z-10 duration-300 group hover:cursor-pointer hover:delay-700"
     @mouseover="playVideo(true)"
     @mouseleave="playVideo(false)"
   >
     <!-- Video Section-->
-    <img src="@/assets/images/avengers.webp" alt="Video Cover" class="group-hover:hidden">
-    <iframe :src="src" frameborder="0" allowfullscreen class="hidden group-hover:block h-1/2 rounded-[0.2vw] w-full"></iframe>
+    <img src="@/assets/images/avengers.webp" alt="Video Cover" class="h-full group-hover:h-0 group-hover:delay-700">
+    <iframe :src="src" frameborder="0" allowfullscreen class="group-hover:h-1/2 rounded-[0.2vw] group-hover:delay-700 h-0 opacity-0 group-hover:opacity-100"></iframe>
     <!-- Button Section -->
-    <div class="scale-y-0 opacity-0 h-0 group-hover:h-1/2 group-hover:scale-y-100 group-hover:opacity-100 bg-[#111111] transition-opacity duration-300 delay-200 ease-in-out flex flex-col p-4 group-hover:shadow-xl">
+    <div class="scale-y-0 opacity-0 h-0 group-hover:h-1/2 group-hover:scale-y-100 group-hover:opacity-100 bg-[#111111] transition-opacity duration-300 group-hover:delay-700 ease-in-out flex flex-col p-4 group-hover:shadow-xl">
       <!-- Action Button -->
       <div class="flex justify-between">
         <div class="flex items-start">
