@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white">
+  <div class="text-white pb-[50px]">
     <HomePlayer />
     <VideoList title="Trending Now" class="mt-[4%]" />
     <VideoList title="Recently Added" class="mt-[2%]" />

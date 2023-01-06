@@ -6,7 +6,7 @@
   >
     <!-- Video Section-->
     <img src="@/assets/images/avengers.webp" alt="Video Cover" class="group-hover:hidden">
-    <iframe :src="src"  width="218" height="123"  frameborder="0" allowfullscreen class="hidden group-hover:block h-[123px] rounded-[0.2vw]"></iframe>
+    <iframe :src="src" frameborder="0" allowfullscreen class="hidden group-hover:block h-[123px] rounded-[0.2vw]"></iframe>
     <!-- Button Section -->
     <div class="scale-y-0 opacity-0 h-0 group-hover:h-[123px] group-hover:scale-y-100 group-hover:opacity-100 bg-[#111111] transition-opacity duration-300 delay-200 ease-in-out flex flex-col p-4 group-hover:shadow-xl">
       <!-- Action Button -->
