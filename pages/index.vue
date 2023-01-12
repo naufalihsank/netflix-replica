@@ -2,8 +2,8 @@
   <div class="text-white pb-[50px]">
     <HomePlayer />
     <VideoList title="Trending Now" class="mt-[4%]" />
-    <VideoList title="Recently Added" class="mt-[2%]" />
-    <VideoList title="Marvel Studios" class="mt-[2%]" />
+    <VideoList title="Recently Added" class="mt-[4%]" />
+    <VideoList title="Marvel Studios" class="mt-[4%]" />
   </div>
 </template>
 <script>

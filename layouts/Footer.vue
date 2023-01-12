@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mx-auto mt-5 font-netflixsans max-w-[980px] text-[#808080]">
+  <div class="flex flex-col mx-auto mt-20 font-netflixsans max-w-[980px] text-[#808080]">
     <!-- Social Media -->
     <div class="flex gap-10 mb-[10px]">
       <img src="@/assets/icons/facebook.svg" alt="Facebook Logo" class="hover:cursor-pointer">
