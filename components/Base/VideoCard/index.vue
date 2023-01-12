@@ -5,7 +5,7 @@
     @mouseleave="playVideo(false)"
   >
     <!-- Video Section-->
-    <img src="@/assets/images/avengers.webp" alt="Video Cover" class="h-full group-hover:h-0 group-hover:delay-700">
+    <img src="@/assets/images/avengers.webp" alt="Video Cover" class="h-full group-hover:h-0 group-hover:delay-700 rounded-[0.2vw]">
     <iframe :src="src" frameborder="0" allowfullscreen class="group-hover:h-1/2 rounded-[0.2vw] group-hover:delay-700 h-0 opacity-0 group-hover:opacity-100"></iframe>
     <!-- Button Section -->
     <div class="scale-y-0 opacity-0 h-0 group-hover:h-1/2 group-hover:scale-y-100 group-hover:opacity-100 bg-[#111111] transition-opacity duration-300 group-hover:delay-700 ease-in-out flex flex-col p-4 group-hover:shadow-xl">
