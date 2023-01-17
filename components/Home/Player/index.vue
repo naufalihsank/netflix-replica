@@ -1,6 +1,6 @@
 <template>
   <lite-youtube videoid="TcMBFSGVi1c" :params="videoParams" class="w-full aspect-auto max-w-full max-h-screen relative hover:cursor-default font-netflixsans">
-    <div class="absolute bottom-[35%] pl-[4%] z-2">
+    <div class="absolute bottom-[35%] pl-[4%] z-10">
       <p class="max-w-[518px] text-[1.1vw]">
         Whatever it takes. Watch the brand-new trailer for Marvel Studios’ Avengers: Endgame. In theaters April 26.
       </p>
@@ -15,7 +15,7 @@
         </button>
       </div>
     </div>
-    <div class="flex absolute bottom-[33.5%] right-0 z-2">
+    <div class="flex absolute bottom-[33.5%] right-0 z-10">
       <button class="border border-[#ffffffb3] rounded-full p-2 mr-[15.8px] hover:bg-[#ffffff1a]">
         <img src="@/assets/icons/replay.svg" alt="Replay Button" width="20">
       </button>

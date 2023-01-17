@@ -20,8 +20,8 @@
         <swiper-slide><BaseVideoCard /></swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
-      <div class="text-white bg-[hsla(0,0%,8%,.7)] absolute right-0 top-0 flex h-full max-h-[200px] w-[4%] z-10 justify-center py-[78px] rounded-l-[0.2vw]">
-        <img src="@/assets/icons/chevron-right.png" alt="Chevron Right" class="hidden group-hover/list:block hover:cursor-pointer">
+      <div class="text-white bg-[hsla(0,0%,8%,.7)] absolute right-0 top-0 flex h-[1vw] w-[4%] z-10 justify-center py-[78px] rounded-l-[0.2vw]">
+        <img src="@/assets/icons/chevron-right.png" alt="Chevron Right" class="hidden group-hover/list:block hover:cursor-pointer h-[2vw]">
       </div>
     </div>
   </div>
