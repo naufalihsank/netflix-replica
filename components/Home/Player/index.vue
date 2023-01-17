@@ -23,6 +23,7 @@
         13+
       </div>
     </div>
+    <VideoList title="Trending Now" class="absolute bottom-0 z-10" />
   </lite-youtube>
 </template>
 
